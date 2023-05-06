@@ -116,3 +116,46 @@ there's no current draw on the switch... weird
 
 the other thing I don't know right now is the POST request receive on ESP-01, I need to verify that, then I can package everything into a board
 
+1:00 PM
+
+what sucks is how big this relay is, the ESP/related circuitry is small so you have this odd L shape
+
+I'm wiring up the circuit board now/soldering it
+
+2:51 PM
+
+I gotta say this is one of the worst projects I've worked on in a while, mostly because my AC is not working, hot af/making me pissed off
+
+Also the 3A wire gauge stuff is harder to solder and I didn't have much so I reduced the length of the wire... it should all work though
+
+3:38 PM
+
+my god it's hot...
+
+stupid "why isn't it working?" typo between WiFi and Wifi
+
+4:13 PM
+
+the low/high is reversed on the blue LED? hmm
+
+4:18 PM
+
+struggling on the arg receive... lost the pings... is connected/running
+
+what's kind of annoying is this server handler blocks everything, I can't write anything else to handle bad scenarios
+
+like wifi goes down, I put a reconnect on there but don't know if it will work, you could test it...
+
+I set the blue LED to indicate it's on wifi though for visual
+
+4:24 PM
+
+hmm... seems like the blue LED and serial tx are the same line... so can't use them both at the same time
+
+4:38 PM
+
+dumb... the hasArg thing needs x-ww-form-urlencoded, will have to figure out how to set that on python
+
+4:57 PM
+
+pbp is at 0 right now, just tested the relay for realsies it's working, just wondering how much slower it is to charge with some of the current taken away while charging
