@@ -159,3 +159,17 @@ dumb... the hasArg thing needs x-ww-form-urlencoded, will have to figure out how
 4:57 PM
 
 pbp is at 0 right now, just tested the relay for realsies it's working, just wondering how much slower it is to charge with some of the current taken away while charging
+
+5:00 PM
+
+if it stays at 0% after 10 minutes I'm going to assume it doesn't have enough power to charge, I'll have to rework the ESP-01 code and wiring (flip output) so it charges automatically if there's no "stop charge" command (high trigger on)
+
+there's no real damage other than the battery being at 100% too long = crystals forming or something overtime
+
+5:04 PM
+
+ehh... I'm calling it, it is not progressing
+
+5:22 PM
+
+I'm getting the dimensions so I can start doing the body design/start printing it out
