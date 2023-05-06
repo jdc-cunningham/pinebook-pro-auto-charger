@@ -30,12 +30,12 @@ void blueLedOff()
 
 void startCharging()
 {
-  digitalWrite(CHARGER_TRIGGER, HIGH);
+  digitalWrite(CHARGER_TRIGGER, LOW);
 }
 
 void stopCharging()
 {
-  digitalWrite(CHARGER_TRIGGER, LOW);
+  digitalWrite(CHARGER_TRIGGER, HIGH);
 }
 
 void connectToWiFi()
@@ -76,7 +76,7 @@ void setup()
   blueLedOff();
 
   pinMode(CHARGER_TRIGGER, OUTPUT);
-  stopCharging();
+  startCharging(); // high trigger is off
 
   server.on("/", HTTP_POST, handlePost);
   server.begin();
