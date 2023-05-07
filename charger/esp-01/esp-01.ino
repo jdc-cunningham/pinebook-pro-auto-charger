@@ -87,10 +87,4 @@ void setup()
 void loop()
 {
   server.handleClient();
-
-  if (WiFi.status() != WL_CONNECTED)
-  {
-    blueLedOff();
-    WiFi.reconnect();
-  }
 }
