@@ -16,10 +16,8 @@ def check_battery():
   battery_capacity = int(get_battery_capacity())
 
   if (battery_capacity <= 80):
-    print('on')
     turn_charger_on()
   else:
-    print('off')
     turn_charger_off()
 
 check_battery()
