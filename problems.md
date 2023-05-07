@@ -63,3 +63,21 @@ alright... will see what other problems occur, it's 5:04 PM, 91F outside, 83F in
 ugh... still problems with the ESP-01 going down/not reconnecting
 
 I was thinking maybe it's a serial buffer building up or something, but I'm not using serial
+
+it's still going down dang
+
+when the ESP-01 is on the serial programmer, nothing connected to it, wifi is reliable, doesn't go down...
+
+maybe it is a power source issue
+
+ugh... I can't move on, I keep thinking it's done but you leave it alone long enough it's not actually working
+
+hmmm.... maybe I do have to have separate power supplies in the end...
+
+I see power bleeding into the relay led
+
+it won't connect when in the charger mount ugh...
+
+my current guess right now is the laptop battery charger needs a high current draw... the ESP-01 on its own is throwing it off/not providing constant power... so the ESP-01's power supply is unstable... after separating power supply wifi connection is constant
+
+the wifi works/stays on now, so I'll keep an eye on it regarding long term use
