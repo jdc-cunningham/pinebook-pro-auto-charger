@@ -180,3 +180,13 @@ ugh... what a waste... I printed 1.6" extra material for the sake of the chord..
 
 need to shorten the case
 
+9:57 PM
+
+still going, damn it is hot
+
+I want to write this python script... charging right now
+
+My next laptop will be the Samsung Chromebook 4K, but I need a job first
+
+nice python 3.10 already on
+
