@@ -173,3 +173,10 @@ ehh... I'm calling it, it is not progressing
 5:22 PM
 
 I'm getting the dimensions so I can start doing the body design/start printing it out
+
+8:16 PM
+
+ugh... what a waste... I printed 1.6" extra material for the sake of the chord...
+
+need to shorten the case
+
