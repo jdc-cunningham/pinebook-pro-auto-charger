@@ -8,7 +8,7 @@
 // https://techtutorialsx.com/2017/03/26/esp8266-webserver-accessing-the-body-of-a-http-request/
 
 #define BLUE_LED 1 // blue LED as WiFi status, cannot be used with Serial.print... calls same tx pin
-#define CHARGER_TRIGGER 2 // LED to GPIO2
+#define CHARGER_TRIGGER 3 // use RX for low boot
 
 #include "env.h"
 #include <ESP8266WiFi.h>
@@ -69,7 +69,7 @@ void handlePost()
 
 void setup()
 {
-  Serial.begin(115200);
+  // Serial.begin(115200); // can't use this since using rx pin
 
   // can't use with Serial calls, serial calls won't show up
   pinMode(BLUE_LED, OUTPUT);
@@ -86,8 +86,8 @@ void setup()
 
 void loop()
 {
-  server.handleClient(); // not sure if the code below will execute if wifi goes down
-  
+  server.handleClient();
+
   if (WiFi.status() != WL_CONNECTED)
   {
     blueLedOff();
