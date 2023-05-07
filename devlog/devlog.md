@@ -1,3 +1,22 @@
+05/07/2023
+
+11:47 AM
+
+the charger did not stop overnight so laptop hit 100%, interestingly the light did not turn off... so maybe it's like trickle charge (not a nimh/nicd I know)
+
+there were 2 issues:
+
+- os.system call vs. subprocess (not storing output to variable)
+- lost wifi connection
+
+I fixed both of those, I need to test it though, the wifi part in particular, not sure how long to wait till it loses connection so I'll try from like 50%
+
+I'm printing the top case now, it'll take 5 hours started like an hour ago...
+
+Going to work on monocle ar now
+
+---
+
 05/06/2023
 
 10:38 AM
