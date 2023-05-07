@@ -197,3 +197,31 @@ alright... I'll use a separate USB block for power
 I want to see how the temperatures are (on wall adapter and laptop)
 
 I feel like I can tell something is wrong with regard to how hot things are getting but I also have not used this laptop enough until now to notice
+
+11:21 PM
+
+oh man... I didn't even think about if the lid is closed, is wifi on... it should be
+
+all it's doing is turning the screen off and locking it
+
+11:40 PM
+
+can't get cronie to work
+
+says enabled, preset disabled, not active
+
+oh had to start it... hmm
+
+also I added my username to /etc/cron.allow
+
+https://forum.manjaro.org/t/cant-get-my-cron-job-to-run/83091
+
+not sure what works... the `systemctl start cronie` was important though besides enabling it
+
+11:54 PM
+
+the pbp is warm even just being used, I have several tabs open, VS Code... it's 101F the bottom, no fan
+
+I did have a permission issue on log writing... maybe I'm close to getting cron working
+
+omg it worked yes
