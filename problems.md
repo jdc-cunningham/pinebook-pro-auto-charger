@@ -81,3 +81,47 @@ it won't connect when in the charger mount ugh...
 my current guess right now is the laptop battery charger needs a high current draw... the ESP-01 on its own is throwing it off/not providing constant power... so the ESP-01's power supply is unstable... after separating power supply wifi connection is constant
 
 the wifi works/stays on now, so I'll keep an eye on it regarding long term use
+
+omg... lmao, as I was putting the cover on it lost wifi connection hmm...
+
+but when I rebooted it (unplug/replug) it reconnected again to wifi so that part is better
+
+wifi went down... ugh...
+
+the relay led is a little on, I think it's bleeding power from rx pin into the relay trigger...
+
+ugh... man this is annoying
+
+it's that issue again of pins stealing power from each other, the nuclear option is to use an overpowered wifi board where the pin is definitely nothing
+
+I unplugged the esp-01 and pulled it out of the socket, booted correctly...
+
+Is it a serial buildup? I don't even use serial though
+
+I just saw it do something where it went down, seems like restarting the relay light comes on a little
+
+I think the culprit is the rx pin... being connected to the relay, on power up/boot
+
+This sounds superstituous lol but it's possbile too the unplugged laptop charger has capacitance/has power on that side... pulled back up into esp... doesn't make sense... since ground is not shared between the two power supplies
+
+I'm so annoyed too because of how hot it is/everything is sticky ugh
+
+I plugged in the ESP-01 into the programmer, while it's running did requests to it, responded, no output on serial monitor...
+
+so I don't think that is a problem
+
+I don't know what to do... for some reason this thing doesn't work, it's not reliable
+
+so the top jumper is needed to actually turn the relay on/off, probably already said this before
+
+I pull the esp-01 out and put it back in, helps reset it
+
+it's funny it just worked on its own (cron job fired/turned charger back on since capacity < 80) but the ESP-01 wifi connection is not reliable
+
+now it's being reliable... idk what to do, right now though barrel charger is plugged into the wall as well
+
+is it a short? barrel is plugged into laptop too
+
+wtf... now I can't get it to fail lol
+
+3... 2... 1... lol goes down as soon as I put the screws in... nah it's still working now but I haven't changed anything
