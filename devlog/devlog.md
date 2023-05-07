@@ -15,6 +15,8 @@ I'm printing the top case now, it'll take 5 hours started like an hour ago...
 
 Going to work on monocle ar now
 
+It's also hot, AC not working great, has a lot of ice build up, maybe low on refrigerant letting it thaw now
+
 ---
 
 05/06/2023
