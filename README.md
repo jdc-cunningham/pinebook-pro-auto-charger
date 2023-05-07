@@ -1,5 +1,7 @@
 ### Pinebook Pro Auto Charger
 
+<img src="./charger.JPG"/>
+
 #### Disclaimer
 
 I don't know what the implications are of pulling power from the designed source eg. 5V 3A.
