@@ -190,3 +190,10 @@ My next laptop will be the Samsung Chromebook 4K, but I need a job first
 
 nice python 3.10 already on
 
+10:49 PM
+
+alright... I'll use a separate USB block for power
+
+I want to see how the temperatures are (on wall adapter and laptop)
+
+I feel like I can tell something is wrong with regard to how hot things are getting but I also have not used this laptop enough until now to notice
