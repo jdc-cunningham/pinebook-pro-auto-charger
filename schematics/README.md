@@ -4,4 +4,4 @@
 
 Sorry for this crayon circuit lol
 
-The green thing is a solderable breadboard cut to size
+The green thing is a solderable breadboard or prototype pcb maybe, cut to size

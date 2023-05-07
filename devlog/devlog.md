@@ -225,3 +225,13 @@ the pbp is warm even just being used, I have several tabs open, VS Code... it's 
 I did have a permission issue on log writing... maybe I'm close to getting cron working
 
 omg it worked yes
+
+1:09 PM
+
+I have to flip the code back around again lol... going back to shared power supply
+
+1:26 AM
+
+swapped and resoldered... I'm done
+
+It's so hot right now... AC is down, probably can't sleep if I wanted to
