@@ -59,3 +59,7 @@ also my relay is not an octoupler one seems like, active high vs. low
 omg lmao... yes using rx pin works however... I gotta unsolder and go back to shared power supply lmao oh man...
 
 alright... will see what other problems occur, it's 5:04 PM, 91F outside, 83F inside... I'm drowning in sweat damn
+
+ugh... still problems with the ESP-01 going down/not reconnecting
+
+I was thinking maybe it's a serial buffer building up or something, but I'm not using serial
