@@ -125,3 +125,47 @@ is it a short? barrel is plugged into laptop too
 wtf... now I can't get it to fail lol
 
 3... 2... 1... lol goes down as soon as I put the screws in... nah it's still working now but I haven't changed anything
+
+lmao it just went down
+
+it's bleeding power again ugh
+
+been up for a while...
+
+went down lol... I'm not keep track of time, I wonder what makes it go down
+
+going to try redoing connection to wifi
+
+this is interesting i cna see the red LED doing stuff, power fluctuation? it's not connecting to wifi...
+
+hmm... is this it?
+
+I set RX to low on setup, turns on relay immediately (stops charging) but ESP-01 is still on
+
+I'm liking this so far... but false hope, will see
+
+The other thing I have not considered is I should not keep sending a call to change the relay state if it's the same command eg. on, on, on... don't do anything until going to off
+
+Maybe this is it?... floating pin on rx... I had to ground it by setting it to low in setup?
+
+It's at 80% now will see if it turns itself off
+
+aye... it turned itself off at 80%
+
+I am wondering if if it's bad that every 5 minutes it charges/uncharges... maybe I'll increase that time or change the logic
+
+what's funny is my problems may have just been the rx pin... now I'm like "should I try the shared power supply again?"
+
+it's been running well right now but I don't know if it's just coincidence
+
+I gots to know man (Dirty Harry reference)
+
+Ughh.... oh my god, I've desolderd/resoldered this thing so many times
+
+unplugged replugged back up wifi
+
+I'm gonna do it... let's go
+
+yeap... works fine with shared power supply
+
+I think I can die in peace now
