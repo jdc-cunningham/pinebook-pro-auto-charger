@@ -73,15 +73,13 @@ void setup()
 
   // can't use with Serial calls, serial calls won't show up
   pinMode(BLUE_LED, OUTPUT);
-  blueLedOff();
-
   pinMode(CHARGER_TRIGGER, OUTPUT);
-  startCharging(); // high trigger is off
+  stopCharging(); // set RX to low
+
+  connectToWiFi();
 
   server.on("/", HTTP_POST, handlePost);
   server.begin();
-
-  connectToWiFi();
 }
 
 void loop()
@@ -91,6 +89,6 @@ void loop()
   if (WiFi.status() != WL_CONNECTED)
   {
     blueLedOff();
-    WiFi.reconnect();
+    connectToWiFi();
   }
 }
