@@ -18,3 +18,9 @@ The setup pulls 2.58 Amps at 5V measured (at source eg. wall side) with bench to
 ### Reason
 
 The PBP has a wake problem when going to sleep. Once it sleeps, doesn't wake up. I'm currently using the option where when you close the lid, the screen is just turned off (everything still on). The power draw is still up there eg. in 9 hours you lose 65% of charge. It's a pain to lose your progress... so this aims to just keep the laptop on all the time but hopefully have the battery last longer.
+
+### Video (YouTube)
+
+<a href="https://youtu.be/XxSARBcZGac">
+  <img src="./yt-thumb.JPG"/>
+</a>
