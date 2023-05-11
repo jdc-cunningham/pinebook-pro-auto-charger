@@ -15,7 +15,7 @@ def turn_charger_on():
 def check_battery():
   battery_capacity = int(get_battery_capacity())
 
-  if (battery_capacity <= 80):
+  if (battery_capacity <= 70):
     turn_charger_on()
   else:
     turn_charger_off()
