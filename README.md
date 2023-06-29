@@ -24,3 +24,11 @@ The PBP has a wake problem when going to sleep. Once it sleeps, doesn't wake up.
 <a href="https://youtu.be/XxSARBcZGac">
   <img src="./yt-thumb.JPG"/>
 </a>
+
+### You don't need a router
+
+I should have realized this earlier but you can connect a laptop to an ESP-01 directly without a router in between.
+
+I believe this is the AP mode or softAP (both).
+
+So you don't have to have the limitation that I have added here where it's tied to the local WiFi router.
